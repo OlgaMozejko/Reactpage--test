@@ -899,7 +899,7 @@ header {
 }
 
 .hero {
-  margin-top: 180px;
+  margin-top: 240px;
 }
 
 .hero--images {
@@ -1244,88 +1244,11 @@ header {
 
   @media (max-width: 900px) {
 
-    header {
-      flex-direction: column;
-      justify-content: center;
-      height: 110px;
-    }
-
-    .logo {
-      padding: 0;
-      margin-bottom: 0px;
-    }
-
-    .nav {
-      margin: 0;
-    }
-
-    .nav--li:nth-child(1) {
-      margin-right: 0px;
-      padding-left: 10px;
-    }
-    
-    .nav--li:nth-child(2) {
-      margin-right: 0px;
-      padding-right: 0px;
-    }
-
-    .nav--li {
-      width: 60px;
-      margin: 0;
-    }
-
-    .second--cards {
-      flex-direction: column;
-    }
-
     .card {
-      margin-bottom: 50px;
-    }
-
-    .video--img {
-      margin-top: 120px;
-      height: 400px;
-      width: 98%;
-    }
-    
-    .video--img--border {
-      margin-top: 120px;
-      height: 400px;
-      width: 72%;
-    }
-
-    .hero--logo {
-      scale: 0.9;
-    }
-
-    .hero--arrow {
-      bottom: 10px;
-    }
-
-    .video--play, .video--play--border {
-      margin-top: 120px;
-    }
-
-    .cookies--box {
-      justify-content: center;
-      padding-left: 0px;
-      width: 200px;
-      height: 50px;
-    }
-
-    .footer--innerflex {
-      flex-direction: column;
-    }
-    
-    .footer--box {
-      width: 70%;
       margin: 0;
-      margin-left: 40px;
-      margin-bottom: 40px;
-    }
-
-    .footer--flex {
-      align-items: center;
+      scale: 0.5;
+      margin-left: -60px;
+      margin-right: -60px;
     }
 
   }
